@@ -1,3 +1,9 @@
+/*
+Create by @gambhirsharma on 31^th August 2022
+
+## ctime is use to detect the current time from the system.
+*/
+
 #include <iostream>
 #include <ctime>
 using namespace std;
@@ -14,7 +20,7 @@ int main()
   string greet_time[3] = {"Morning", "Afternoon", "Evening"};
   if (hour < 12)
   {
-    // Good morning
+   // Good morning
     greet_message = greet_time[1];
   }
   else if (Time_now < 6)
